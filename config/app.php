@@ -181,7 +181,7 @@ return [
     | the aliases are "lazy" loaded so they don't hinder performance.
     |
     */
-
+//Json Web Token
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
         'JWTAuth' =>Tynon\JWTAuth\Facades\JWTAuth::class,

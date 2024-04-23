@@ -12,7 +12,7 @@ return [
     | as required, but they're a perfect start for most applications.
     |
     */
-
+    //Json Web Token
     'defaults' => [
         'guard' => 'api',
         'passwords' => 'users',
@@ -34,7 +34,7 @@ return [
     | Supported: "session"
     |
     */
-
+//Json Web Token
     'guards' => [
         'web' => [
             'driver' => 'session',
@@ -63,7 +63,7 @@ return [
     | Supported: "database", "eloquent"
     |
     */
-
+//jwt
     'providers' => [
         'users' => [
             'driver' => 'eloquent',

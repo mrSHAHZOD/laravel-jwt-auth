@@ -1,5 +1,5 @@
 <?php
-
+//Json Web Token
 namespace App\Http\Controllers;
 
 use App\Models\User;
